@@ -1,0 +1,12 @@
+{
+  "name": "owlcarousel2-a11ylayer",
+  "version": "0.2.2",
+  "main": [
+    "owlcarousel2-a11ylayer.js"
+  ],
+  "ignore": [],
+  "dependencies": {
+    "owl.carousel": ">= 2.1.6",
+    "jquery": ">= 1.8.3"
+  }
+}

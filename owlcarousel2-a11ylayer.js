@@ -233,7 +233,9 @@
 
   /**
    * Identify active elements, set WAI-ARIA sttributes accordingly,
-   * scroll to show element if we need to, and set up focusing.
+   * 
+   
+   to show element if we need to, and set up focusing.
    *
    * @param Event e
    *   The triggering event.
@@ -247,13 +249,6 @@
 
     if (!!stage) {
       var offs = stage.offset();
-      if (!!targ) {
-        window.scrollTo(
-          offs.left,
-          offs.top - parseInt($('body').css('padding-top'), 10)
-        );
-      }
-
       this._core.$stage.children().each(function(i) {
         var item = $(this);
         var focusable = focusableElems(this);
